@@ -11,7 +11,7 @@ bilibili = https://www.bilibili.com
 ### 2 范畴
 
 ```lore
-+ web_sites
++ web\_sites
   bilibili = https://www.bilibili.com
   zhihu = https://www.zhihu.com
 ```

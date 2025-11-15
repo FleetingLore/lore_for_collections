@@ -96,7 +96,7 @@ a:hover {
 </body>
 </html>`;
 
-    let filename = document.getElementById('filename').value.trim() || '����վ';
+    let filename = document.getElementById('filename').value.trim() || 'root';
     filename = filename.replace(/\.html$/g, '') + '.html';
 
     const blob = new Blob([html], { type: 'text/html' });
