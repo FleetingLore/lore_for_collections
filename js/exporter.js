@@ -41,7 +41,7 @@ details[open] {
 summary {
     list-style: none;
     color: var(--text);
-    padding: 8px 0;
+    padding: 5px 0;
     cursor: pointer;
 }
 summary:hover {
@@ -54,16 +54,16 @@ summary::before {
     content: "+";
     margin-right: 12px;
     display: inline-block;
-    width: 20px;
+    width: 17px;
     text-align: center;
-    color: #003366;
+    color: var(--text);
     font-weight: bold;
 }
 details[open] > summary::before {
     content: "-";
 }
 .links {
-    padding-left: 16px;
+    padding-left: 17px;
     border-left: 2px solid var(--text);
     margin-top: 5px;
 }
@@ -71,10 +71,7 @@ a {
     display: block;
     color: var(--text);
     text-decoration: none;
-    padding: 6px 10px;
-    border-radius: 4px;
-    margin: 3px 0;
-    transition: all 0.2s;
+    padding: 5px 17px;
 }
 a:hover {
     background: var(--local);
@@ -85,7 +82,7 @@ a:hover {
 <body>
     <details open>
         <summary>${root.name}</summary>
-        <div style="margin-left:20px">\n`;
+        <div style="margin-left:17px">\n`;
 
     root.rails.forEach(node => {
         html += nodeToHTML(node, 2);
