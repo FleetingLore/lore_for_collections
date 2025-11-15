@@ -20,7 +20,7 @@ function exportHTML() {
     <style>
 :root {
     --back_ground: #ffffff;
-    --text: #111111;
+    --text: #111199;
     --local: #dddddd;
     --shadow: #eeeeee;
     --block: #cccccc;
