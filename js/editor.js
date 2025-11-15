@@ -1,12 +1,10 @@
 export function setupEditor() {
     const editor = document.getElementById('editor');
 
-    // 设置符号插入按钮
     document.getElementById('insertHash').addEventListener('click', () => insertSymbol('# '));
     document.getElementById('insertEqual').addEventListener('click', () => insertSymbol(' = '));
     document.getElementById('insertPlus').addEventListener('click', () => insertSymbol('+ '));
 
-    // 设置缩进处理
     editor.addEventListener('keydown', handleIndent);
 }
 
