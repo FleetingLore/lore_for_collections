@@ -187,7 +187,7 @@ export function nodeToHTML(node, level = 0) {
 
         html += `${indent}</details>\n`;
     } else if (node.type === 'Rail') {
-        html += `${indent}<a href="${node.content}">${node.name}</a>\n`;
+        html += `${indent}<a href="${node.content}" target="_blank">${node.name}</a>\n`;
     } else if (node.type === 'Element') {
         html += `${indent}<p>${node.content}</p>\n`;
     }
