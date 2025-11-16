@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  :root {
+    --toolbar-height: 56px;
+    --spacing-lg: 12px;
+  }
+  
+  .toolbar {
+    padding: 0 var(--spacing-md);
+    gap: var(--spacing-sm);
+  }
+  
+  #filename {
+    width: 150px;
+  }
+  
+  #editor {
+    font-size: 14px;
+    padding: var(--spacing-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .toolbar {
+    flex-wrap: wrap;
+    height: auto;
+    min-height: var(--toolbar-height);
+    padding: var(--spacing-sm);
+  }
+  
+  .save-box {
+    margin-left: 0;
+    width: 100%;
+    justify-content: space-between;
+    order: -1;
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  #filename {
+    flex: 1;
+    width: auto;
+  }
+  
+  #editor {
+    margin-top: 80px;
+    height: calc(100vh - 80px);
+  }
+}
