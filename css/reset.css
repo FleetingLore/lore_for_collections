@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: "SimHei", "Microsoft YaHei", sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
