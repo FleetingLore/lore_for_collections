@@ -1,0 +1,15 @@
+:root {
+  --toolbar-height: 60px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --border-radius: 6px;
+  --shadow-light: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
+  --text-color: #333;
+  --bg-color: #fff;
+  --border-color: #d1d5db;
+  --editor-bg: #f8fafc;
+}
